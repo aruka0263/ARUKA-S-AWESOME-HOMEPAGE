@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!--                        .-.
+                         '-'
+                        //
+               _..---._/|
+             .' ."     '-.
+            /__/          \      *
+           ====_____     __|     :
+          /#   #""" |   /()\    :    ..*
+          |#   #    |   \__/    : .'' 
+          \#___#____|      /   :::.. .
+           \______________|_...ä_: .. '*
+  ()       // /\||||)))))))      '   . .
+ .( \_     \\_\//   _-'.'/        |   * ..
+( )  |^|^|^|ooo/  _#\.//"""_      |   . . .
+(_)_.'v|v|v|     / \#  \_ / '_  _'    . .  
+           | _ _/_/     /'./_-|"         . .
+           /#_#__"""-._ /#  \__)       .  .   
+           |__   ""-._ |##               . . .
+           |  ""|-"""-_/##              . .    
+           /""--\__.-|                       .
+           \-_.-<__ /                   .   .
+           /-_| /  \
+           \-_| \_-<.                        .  .
+           <_-/ <_.-\                    .
+           <_-|  |_.-|                        .
+      .----|   \__\  |                 .
+     |     ."""   '.  |                       .
+      .___|        |__| 
+          '.__...""" -->
+<html>
+
+<head>
+    <title></title>
+    <link rel="shortcut icon" href="icon.png">
+    <script>
+    function animateTitle() {
+      i >= message.length - 1 ? (i = 0) : i++,
+        (document.title = message[i]),
+        setTimeout("animateTitle()", 250);
+    }
+    var message = [
+        "Hello from 1999",
+        "ello from 1999 ",
+        "llo from 1999 H",
+        "lo from 1999 He",
+        "o from 1999 Hel",
+        " from 1999 Hell",
+        "from 1999 Hello",
+        "rom 1999 Hello ",
+        "om 1999 Hello f",
+        "m 1999 Hello fr",
+        " 1999 Hello fro",
+        "1999 Hello from",
+        "999 Hello from ",
+        "99 Hello from 1",
+        "9 Hello from 19",
+        " Hello from 199",
+      ],
+      i = 0;
+    animateTitle();
+  </script>
+
+
+</head>
+<frameset cols="240,*">
+    <frame name="contents" target="main" src="index-left.html" noresize scrolling="auto" align="top">
+        <frame name="main" src="index-main.html" noresize target="main" scrolling="auto" marginwidth="0" marginheight="0" align="top">
+</frameset>
+
+</html>
