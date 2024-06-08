@@ -1,0 +1,9 @@
+<body bgcolor="#9c9">
+<center><textarea cols="80" rows="20" wrap="soft" onkeyup="ShowLength(value);"></textarea>
+<p id="inputlength">0words</p></center>
+    
+<script type="text/javascript">
+    function ShowLength( str ) {
+   document.getElementById("inputlength").innerHTML = str.length + "words";
+}
+    </script>
